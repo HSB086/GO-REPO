@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhdG9vbC5zaGFpa2hAaGV5dG9ydXMuY29tIiwiZXhwIjoxNzA3MTIyMDczLCJ1c2VySWQiOjR9.AuVMq94jFRwLO9FhSuXOkdUOdf_s9COEWbUzPrfsZIo
+
+{
+    "name":"BT EVENT",
+    "description":"TEST event based on GO lang",
+    "location":"Mumbai",
+    "datetime":"2024-02-05T15:30:00.000Z"
+}

@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/3
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhdG9vbC5zaGFpa2hAaGV5dG9ydXMuY29tIiwiZXhwIjoxNzA3MTIyMzM5LCJ1c2VySWQiOjR9.NmPS6Snp4KXNSstW9ovQMdd8erKcOWk-uim-2dB-L_M
+
+{
+    "name":"BT Updated Event",
+    "description":"BT Updated Event Description",
+    "location":"BT Updated Location",
+    "datetime":"2024-02-02T17:30:00.000Z"
+}
